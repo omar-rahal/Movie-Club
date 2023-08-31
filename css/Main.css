@@ -51,7 +51,7 @@ nav .container-fluid a,
 }
 @media (max-width: 776px) {
   .home img {
-    height: 71vh;
+    height: 70vh;
   }
   .home .carousel-caption {
     width: 50% !important;
