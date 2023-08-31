@@ -1,0 +1,65 @@
+nav .container-fluid a,
+.logo,
+.welcome h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #cf23cf, #f32170, #4197bf, #448eee);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.logo .img-holder {
+  height: 40px;
+  width: 40px;
+}
+.navbar .navbar-toggler {
+  color: #4197bf;
+  border: 1px solid #4197bf;
+  transition: 1s;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+  color: var(--green-color);
+  color: #cf23cf;
+  border: 1px solid #cf23cf;
+}
+.advantegres,
+.best-movie {
+  background-image: linear-gradient(
+    to right,
+    #cf23cf,
+    #f32172,
+    #4197bf,
+    #448eee
+  );
+}
+.accordion-button:hover {
+  background-color: #448eee;
+  color: white;
+  transition: 0.3s;
+  border-radius: 0 !important;
+}
+.parent .carousel-item img {
+  height: 450px;
+  max-width: 100%;
+}
+.img {
+  background-image: url(/imgs/spider-man-venom-black-background-marvel-superheroes-marvel-3840x2160-2954.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 40vh;
+}
+@media (max-width: 776px) {
+  .home img {
+    height: 71vh;
+  }
+  .home .carousel-caption {
+    width: 50% !important;
+  }
+  .welcome p {
+    width: 100% !important;
+  }
+  .parent {
+    width: 80%;
+  }
+}
