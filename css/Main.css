@@ -10,6 +10,16 @@ nav .container-fluid a,
   height: 40px;
   width: 40px;
 }
+::-webkit-scrollbar-track {
+  background: linear-gradient(to bottom, #cf23cf, #f32170, #4197bf, #448eee);
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.442);
+}
 .navbar .navbar-toggler {
   color: #4197bf;
   border: 1px solid #4197bf;
@@ -49,9 +59,35 @@ nav .container-fluid a,
   width: 100%;
   height: 40vh;
 }
+
+.home .carousel-item .img,
+.img2,
+.img3,
+.img4 {
+  max-width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.home .carousel-item .img {
+  background-image: url(/imgs/spider-man-dark-red-minimal-3840x2160-167.jpg);
+}
+.home .carousel-item .img.tow {
+  background-image: url(/imgs/avatar-twow-videobg02_fae5d62e.jpeg);
+}
+.home .carousel-item .img.three {
+  background-image: url(/imgs/a513797cc82c47712207d2ad75451467.jpg);
+}
+.home .carousel-item .img.four {
+  background-image: url(/imgs/venom-marvel-comics-marvel-superheroes-black-background-5120x2880-7311.jpg);
+}
 @media (max-width: 776px) {
-  .home img {
+  .home .img {
     height: 70vh;
+  }
+  .home .img.tow {
+    background-position: right;
   }
   .home .carousel-caption {
     width: 50% !important;
