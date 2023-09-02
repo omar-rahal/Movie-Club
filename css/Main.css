@@ -77,10 +77,10 @@ nav .container-fluid a,
   background-image: url(../imgs/avatar-twow-videobg02_fae5d62e.jpeg);
 }
 .home .carousel-item .img.three {
-  background-image: url(imgs/a513797cc82c47712207d2ad75451467.jpg);
+  background-image: url(../imgs/a513797cc82c47712207d2ad75451467.jpg);
 }
 .home .carousel-item .img.four {
-  background-image: url(imgs/venom-marvel-comics-marvel-superheroes-black-background-5120x2880-7311.jpg);
+  background-image: url(../imgs/venom-marvel-comics-marvel-superheroes-black-background-5120x2880-7311.jpg);
 }
 @media (max-width: 776px) {
   .home .img {
