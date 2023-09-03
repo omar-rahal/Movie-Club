@@ -6,11 +6,11 @@ nav .container-fluid a,
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
-body{
-  font-family: 'Heebo', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Rubik', sans-serif;
+body {
+  font-family: "Heebo", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .logo .img-holder {
   height: 40px;
@@ -93,7 +93,6 @@ font-family: 'Rubik', sans-serif;
 }
 @media (max-width: 776px) {
   .home .carousel-item .img {
-    height: 70vh;
     background-attachment: scroll;
   }
   .img {
