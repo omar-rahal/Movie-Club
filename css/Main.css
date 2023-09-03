@@ -94,6 +94,7 @@ body {
 @media (max-width: 776px) {
   .home .carousel-item .img {
     background-attachment: scroll;
+    height: 90vh;
   }
   .img {
     background-attachment: scroll;
