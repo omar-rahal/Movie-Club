@@ -58,6 +58,7 @@ body {
   max-width: 100%;
 }
 .img {
+  background-image: url(../imgs/spider-man-venom-black-background-marvel-superheroes-marvel-3840x2160-2954.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -82,8 +83,7 @@ body {
   background-image: url(../imgs/avatar-twow-videobg02_fae5d62e.jpeg);
 }
 .home .carousel-item .img.tow {
-  background-image: url(../imgs/spider-man-venom-black-background-marvel-superheroes-marvel-3840x2160-2954.jpg);
-
+  background-image: url(../imgs/spider-man-dark-red-minimal-3840x2160-167.jpg);
 }
 .home .carousel-item .img.three {
   background-image: url(../imgs/a513797cc82c47712207d2ad75451467.jpg);
